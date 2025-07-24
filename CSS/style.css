@@ -19,3 +19,27 @@ header {
     margin-top: 40px;
     margin-left: 12px;
 }
+
+/*Main*/
+main {
+    padding: 12px;
+}
+
+/*Titolo*/
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.grey-text {
+    color: rgb(128, 124, 124);
+    font-weight: 600;
+}
+
+#autore {
+    color: rgb(76, 197, 233);
+}
+
+#tim-img {
+    margin-top: 24px;
+}
