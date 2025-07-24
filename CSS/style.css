@@ -26,7 +26,8 @@ header {
 }
 
 /*Main*/
-main {
+main,
+footer {
     padding: 12px;
 }
 
@@ -74,3 +75,20 @@ h1 {
 }
 
 /*Tabella*/
+
+#tabella {
+    margin-top: 12px;
+
+}
+
+.bg-blu {
+    background-color: rgb(82, 146, 242);
+}
+
+.bg-azzurro {
+    background-color: rgb(201, 235, 255);
+}
+
+/*Footer*/
+
+
