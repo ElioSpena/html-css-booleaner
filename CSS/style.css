@@ -1,0 +1,21 @@
+/*Reset*/
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    height: 100px;
+    background-color: rgb(94, 176, 253);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 12px;
+}
