@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Playfair Display", serif;
+}
+
 /*Header*/
 header {
     height: 100px;
@@ -33,13 +37,27 @@ h1 {
 
 .grey-text {
     color: rgb(128, 124, 124);
-    font-weight: 600;
+    font-weight: 400;
+
 }
 
 #autore {
     color: rgb(76, 197, 233);
 }
 
+#data {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*Immagini*/
+
 #tim-img {
+
     margin-top: 24px;
+}
+
+#descrizione-foto {
+    font-size: 12px;
+    font-weight: 400;
 }
