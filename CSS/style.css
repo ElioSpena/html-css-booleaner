@@ -1,7 +1,7 @@
 /*Reset*/
 * {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,8 +15,7 @@ header {
     height: 100px;
     background-color: rgb(94, 176, 253);
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    background-position: center;
+    background-size: 300px;
 }
 
 #logo {
@@ -26,10 +25,7 @@ header {
 }
 
 /*Main*/
-main,
-footer {
-    padding: 12px;
-}
+main {}
 
 /*Titolo*/
 h1 {
@@ -71,14 +67,15 @@ h1 {
     margin-top: 24px;
 }
 
-.testo-evidenziato {
-    background-color: rgb(248, 248, 135);
+#lista {
+    margin-left: 24px;
 }
 
 /*Tabella*/
 
 #tabella {
     margin-top: 12px;
+    border-spacing: 0;
 
 }
 
@@ -88,4 +85,45 @@ h1 {
 
 .bg-azzurro {
     background-color: rgb(201, 235, 255);
+}
+
+.col-lg {
+    width: 50%;
+}
+
+.col-sm {
+    width: 25%;
+}
+
+/*Link utili*/
+
+.section-title {
+    margin-top: 12px;
+    font-size: 18px;
+    color: gray;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+.grafico {
+    background-image: url(../img/graph.jpg);
+}
+
+.adv-card {
+    width: 200px;
+    height: 200px;
+    background-position: start;
+    margin-bottom: 12px;
+}
+
+.adv-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
 }
